@@ -11,6 +11,12 @@
     1. Run `nvm install latest`
     2. Run `nvm use latest`
 
+## How to run
+1. From terminal run `node index.js`
 
 ## Useful Links
- https://discordjs.guide/#before-you-begin
+* [discord.js api](https://discordjs.guide/#before-you-begin)
+* [vscode](https://code.visualstudio.com/)
+* [how to set default terminal in vscode](https://code.visualstudio.com/docs/editor/integrated-terminal#_terminal-profiles)
+    * I prefer `git bash`
+* [Git cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
