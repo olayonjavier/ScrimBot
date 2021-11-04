@@ -1,19 +1,17 @@
-const PORT = process.env.PORT || 8000;
-const env = require('dotenv').config()
-const Discord = require("discord.js")
-const client = new Discord.client()
+const { Client, Intents } = require('discord.js');
+const { token } = require('./config.json');
+
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 
-client.on("ready", () => {
+client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!` )
-})
+});
 
 client.on("message", msg =>{
   if(msg.content === 'ping'){
-    msg.reply("pong")
+    msg.reply("pong");
   }
-})
+});
 
-client.login(process.env.TOKEN)
-
-app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+client.login(token);
