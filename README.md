@@ -2,13 +2,12 @@
 # ScrimBot2
 
 
-how to setup up the repo:
-
-install nvm (https://github.com/coreybutler/nvm-windows/releases/tag/1.1.8)
-    select nvm-setup.zip
-    extract
-    run as admin
-Open cmd as admin
-run `nvm install latest`
-run `nvm use latest`
+## Prerequisites for Development
+1. Install nvm (https://github.com/coreybutler/nvm-windows/releases/tag/1.1.8)
+    ..1. Select nvm-setup.zip
+    ..2. Extract
+    ..3. Run as admin
+2. Open cmd as admin
+    ..1. Run `nvm install latest`
+    ..2. Run `nvm use latest`
 
