@@ -4,8 +4,7 @@
   "description": "Discord bot to manage scrims",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^13.3.1",
-    "express": "^4.17.1"
+    "discord.js": "^13.3.1"
   },
   "devDependencies": {
     "eslint": "^8.1.0"
